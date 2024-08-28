@@ -23,6 +23,7 @@
       </div>
   
       <div class="results row" v-if="store.state.movieResults.length">
+        <!-- Visualizzazione dei risultati di ricerca nei FILM -->
         <h2 class="text-light">Risultati FILM</h2>
         <div
           v-for="result in store.state.movieResults"
@@ -66,6 +67,7 @@
         </div>
       </div>
       <div class="results row" v-if="store.state.seriesResults.length">
+        <!-- Visualizzazione dei risultati di ricerca nelle SERIE TV -->
         <h2 class="text-light">Risultati SERIE TV</h2>
         <div
           v-for="result in store.state.seriesResults"
