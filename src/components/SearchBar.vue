@@ -142,7 +142,7 @@
         };
         return languageToCountryMap[languageCode] || languageCode;
       };
-  
+      // Calcolo della quantita' di stelle piene, mezze e vuote con la votazione a 5
       const getStarClass = (voteAverage, starIndex) => {
         const ratingOutOfFive = (voteAverage / 10) * 5;
         const fullStars = Math.floor(ratingOutOfFive);
