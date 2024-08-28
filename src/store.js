@@ -1,6 +1,6 @@
 import { reactive } from 'vue';
 import axios from 'axios';
-
+// Appoggio per query di ricerca da parte dell'utente e arrey per FILM e SERIE TV trovati tramite chiamate API
 const state = reactive({
   query: '',
   movieResults: [],
