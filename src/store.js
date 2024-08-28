@@ -6,7 +6,7 @@ const state = reactive({
   movieResults: [],
   seriesResults: [],
 });
-
+// Funzione con chiamata axios per la ricerca di FILM con possibile risposta di errore
 const searchMovies = async () => {
   if (state.query.length > 2) {
     try {
@@ -27,7 +27,7 @@ const searchMovies = async () => {
     state.movieResults = [];
   }
 };
-
+// Funzione con chiamata axios per la ricerca di SERIE TV con possibile risposta di errore
 const searchSeries = async () => {
     if (state.query.length > 2) {
       try {
