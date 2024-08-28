@@ -124,7 +124,7 @@
         store.searchMovies();
         store.searchSeries();
       };
-  
+      // Creazione di oggetti per le ligue ed il loro corrispettivo per le bandiere
       const getFlagClass = (languageCode) => {
         const languageToCountryMap = {
           en: 'us',
