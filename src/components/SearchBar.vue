@@ -199,7 +199,7 @@
     margin-right: 2px;
   }
   
-  /* Hover effect styles */
+
   .hover-card {
     position: relative;
     overflow: hidden;
