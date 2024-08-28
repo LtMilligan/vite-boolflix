@@ -31,6 +31,7 @@
           class="col-md-4 mb-4"
         >
           <div class="card border border-2 border-danger h-100 hover-card">
+            <!-- Visualizzazione della copertina del FILM o di un placehold personalizzato con il titolo se la copertina non e' presente -->
             <img
               v-if="result.poster_path"
               :src="`https://image.tmdb.org/t/p/w500${result.poster_path}`"
@@ -75,6 +76,7 @@
           class="col-md-4 mb-4"
         >
           <div class="card border border-2 border-danger h-100 hover-card">
+            <!-- Visualizzazione della copertina della SERIE TV o di un placehold personalizzato con il titolo se la copertina non e' presente -->
             <img
               v-if="result.poster_path"
               :src="`https://image.tmdb.org/t/p/w500${result.poster_path}`"
